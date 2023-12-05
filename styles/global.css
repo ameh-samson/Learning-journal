@@ -1,0 +1,42 @@
+/*Reset or Normalize
+@import 'reset.css';
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Layout Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #f1f1f1;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  /* Styles for smaller screens */
+}
+
+/* Custom Components */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Utility Classes */
+.margin-top-10 {
+  margin-top: 10px;
+}
+*/
