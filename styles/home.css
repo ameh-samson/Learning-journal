@@ -1,0 +1,41 @@
+.hero-section {
+  background: rgba(0, 0, 0, 0.31)
+    url("../assets/img/article-image-hero-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 5.4em 1.25em 1.6em;
+  color: #ffffff;
+  margin-bottom: 1.125em !important;
+}
+
+.article-title-hero {
+  font-size: 2rem;
+  padding: 0.25em 0;
+  letter-spacing: -3%;
+  font-weight: 700;
+}
+
+.article-date-hero {
+  font-size: 0.75rem;
+}
+
+.article-preview {
+  font-size: 1rem;
+}
+
+.load-more-article {
+  display: none;
+}
+
+#viewMore-btn {
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 700;
+  padding: 0.3em 0;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 2.56em;
+}

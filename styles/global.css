@@ -1,42 +1,102 @@
-/*Reset or Normalize
-@import 'reset.css';
+/* reset  */
+
+@import "./reset.css";
+@import "./home.css";
 
 /* Global Styles */
-body {
-  font-family: 'Arial', sans-serif;
-  color: #333;
+
+@font-face {
+  font-family: Source Sans Pro;
+  src: url("assets/fonts");
 }
 
-/* Layout Styles */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background: rgba(255, 255, 255, 1);
+  color: rgba(21, 21, 21, 1);
+  line-height: 1.4;
+}
+
+/* layout style */
+
 .container {
-  max-width: 1200px;
+  max-width: 100%;
+  width: 414px;
   margin: 0 auto;
 }
 
-/* Navigation Styles */
-nav {
-  background-color: #f1f1f1;
+/* logo style */
+
+.logo {
+  width: 140px;
 }
 
-nav a {
-  text-decoration: none;
-  color: #555;
+/* header style */
+#header > * {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1em 0;
+  background: rgba(255, 255, 255, 1);
 }
 
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-  /* Styles for smaller screens */
+/* article style */
+
+.article-grid {
+  display: grid;
+  grid-template-areas:
+    "blog-one"
+    "blog-two"
+    "blog-three"
+    "blog-four"
+    "blog-five"
+    "blog-six";
 }
 
-/* Custom Components */
-.card {
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 10px;
+article {
+  margin-bottom: 2.56em;
 }
 
-/* Utility Classes */
-.margin-top-10 {
-  margin-top: 10px;
+article img {
+  width: 100%;
 }
-*/
+
+.article-left-right-padding {
+  padding: 0 1.25em;
+}
+
+.article-date {
+  font-size: 0.88rem;
+  font-weight: 400;
+  margin: 0.988em 0 0.64em;
+}
+
+.article-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.375em;
+  font-weight: 700;
+}
+
+.article-body-preview {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+/* footer */
+
+.footer {
+  font-size: 0.75rem;
+  background-color: #202020;
+  text-align: center;
+  padding: 2.82em 0;
+}
+
+.copyright-title {
+  color: #ececec;
+  font-weight: 700;
+  margin-bottom: 0.25em;
+}
+
+.copy-right-date {
+  color: #d7d7d7;
+}
