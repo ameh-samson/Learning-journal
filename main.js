@@ -10,15 +10,15 @@ function openMenu() {
   navLinks.classList.toggle("active");
   if (navLinks.classList.contains("active")) {
     menuBar.style.color = "#ffffff";
+    navLinks.style.display = "flex";
   } else {
     menuBar.style.color = "";
   }
 }
 
 function viewMoreArticle() {
-  viewMoreBtn.textContent === "View More"
-    ? (viewMoreBtn.textContent = "View Less")
-    : (viewMoreBtn.textContent = "View More");
+  viewMoreBtn.textContent =
+    viewMoreBtn.textContent === "View More" ? "View Less" : "View More";
 
   loadMoreArticle.forEach((e) => {
     e.classList.toggle("load-more");
