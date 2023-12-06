@@ -13,6 +13,7 @@ function openMenu() {
     navLinks.style.display = "flex";
   } else {
     menuBar.style.color = "";
+    navLinks.style.display = "none";
   }
 }
 
