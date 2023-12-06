@@ -28,6 +28,10 @@
   display: none;
 }
 
+.home-article {
+  padding: 0 1.25em;
+}
+
 #viewMore-btn {
   font-size: 1rem;
   color: #000000;
