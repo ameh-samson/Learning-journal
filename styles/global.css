@@ -1,8 +1,7 @@
-/* reset  */
-
 @import "./reset.css";
 @import "./home.css";
 @import "./about.css";
+@import "./post.css";
 
 /* Global Styles */
 

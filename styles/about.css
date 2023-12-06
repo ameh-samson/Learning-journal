@@ -8,7 +8,7 @@
   max-width: 979px;
   margin-inline: auto;
   margin-bottom: 2.81em;
-  padding-inline: 2em;
+  padding-inline: 1.25em;
 }
 
 .about-me-title {
@@ -41,7 +41,7 @@
 /* recent post section */
 
 .recent-post-section {
-  padding-inline: 2em;
+  padding-inline: 1.25em;
   margin-bottom: 2.56em;
 }
 
@@ -59,7 +59,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
-    margin-bottom: 6.19em;
+    margin-bottom: 5.19em;
   }
   .about-me-container > div {
     margin-left: 2.1em;
