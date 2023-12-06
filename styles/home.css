@@ -6,7 +6,7 @@
   background-position: center;
   padding: 5.4em 1.25em 1.6em;
   color: #ffffff;
-  margin-bottom: 1.125em !important;
+  margin-bottom: 2.21em !important;
 }
 
 .article-title-hero {
@@ -38,4 +38,30 @@
   text-decoration: underline;
   cursor: pointer;
   margin-bottom: 2.56em;
+}
+
+/* media query */
+@media (min-width: 768px) {
+  .hero-section {
+    background: rgba(0, 0, 0, 0.31)
+      url("../assets/img/blog-image-hero-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 17.94em 23.44em 3.75em 3.31em;
+    color: #ffffff;
+    margin-bottom: 3.31em !important;
+  }
+
+  .article-title-hero {
+    font-size: 2.5rem;
+  }
+
+  .article-date-hero {
+    font-size: 1rem;
+  }
+
+  #viewMore-btn {
+    grid-column: span 3;
+  }
 }
