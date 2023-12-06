@@ -30,6 +30,14 @@
   padding: 0 1.25em;
 }
 
+.load-more-article {
+  display: none;
+}
+
+.load-more {
+  display: block;
+}
+
 #viewMore-btn {
   display: block;
   font-family: inherit;
@@ -41,6 +49,7 @@
   border: none;
   text-decoration: underline;
   cursor: pointer;
+  margin-bottom: 2.56em;
 }
 
 /* media query */
@@ -52,7 +61,6 @@
     background-size: cover;
     background-position: center;
     padding: 17.94em 23.44em 3.75em 3.31em;
-    color: #ffffff;
     margin-bottom: 3.31em !important;
   }
 

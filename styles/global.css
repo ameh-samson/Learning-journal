@@ -182,7 +182,6 @@ article img {
   }
   .featured-post-section {
     padding: 0 3.31em;
-    margin-bottom: 2.56em;
   }
   .article-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -191,7 +190,6 @@ article img {
 
   article {
     padding: 0 !important;
-    margin-bottom: 0;
   }
 }
 
