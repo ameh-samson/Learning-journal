@@ -17,6 +17,7 @@ body {
   color: rgba(21, 21, 21, 1);
   line-height: 1.3;
   height: 100vh;
+  max-width: 100vw;
   user-select: none;
 }
 
@@ -181,6 +182,7 @@ article img {
   }
   .featured-post-section {
     padding: 0 3.31em;
+    margin-bottom: 2.56em;
   }
   .article-grid {
     grid-template-columns: repeat(3, 1fr);

@@ -26,15 +26,12 @@
   text-align: justify;
 }
 
-.load-more-article {
-  display: none;
-}
-
 .home-article {
   padding: 0 1.25em;
 }
 
 #viewMore-btn {
+  display: block;
   font-family: inherit;
   font-size: 1rem;
   color: #000000;
@@ -44,7 +41,6 @@
   border: none;
   text-decoration: underline;
   cursor: pointer;
-  margin-bottom: 2.56em;
 }
 
 /* media query */
