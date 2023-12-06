@@ -33,6 +33,7 @@
 }
 
 #viewMore-btn {
+  font-family: inherit;
   font-size: 1rem;
   color: #000000;
   font-weight: 700;

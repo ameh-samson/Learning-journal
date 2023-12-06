@@ -8,7 +8,8 @@
 
 @font-face {
   font-family: Source Sans Pro;
-  src: url("assets/fonts");
+  src: url("../assets/fonts/SourceSansPro-Bold.otf");
+  src: url("../assets/fonts/SourceSansPro-Regular.otf");
 }
 
 body {
