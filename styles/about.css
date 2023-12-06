@@ -4,11 +4,9 @@
   margin-top: 1.63em;
 }
 
-.left-right-padding {
-  padding: 0 1.25em;
-}
-
 .about-main-article {
+  max-width: 979px;
+  margin-inline: auto;
   margin-bottom: 2.81em;
 }
 
@@ -41,9 +39,31 @@
 
 /* recent post section */
 
+.recent-post-section {
+  margin-bottom: 2.56em;
+}
+
 .recent-post-text {
   font-size: 1rem;
   text-align: center;
   font-weight: 700;
   margin-bottom: 1.69em;
+}
+
+/* media query */
+
+@media (min-width: 768px) {
+  .about-me-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-bottom: 6.19em;
+  }
+  .about-me-container > div {
+    margin-left: 2.1em;
+  }
+
+  .article-body {
+    padding-left: 8.4em;
+  }
 }
