@@ -21,7 +21,9 @@
 }
 
 .article-preview {
+  display: inline-block;
   font-size: 1rem;
+  text-align: justify;
 }
 
 .load-more-article {
