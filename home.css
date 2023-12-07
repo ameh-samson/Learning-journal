@@ -1,6 +1,6 @@
 .hero-section {
   background: rgba(0, 0, 0, 0.31)
-    url("../assets/img/article-image-hero-mobile.png");
+    url("./assets/img/article-image-hero-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -56,7 +56,7 @@
 @media (min-width: 768px) {
   .hero-section {
     background: rgba(0, 0, 0, 0.31)
-      url("../assets/img/blog-image-hero-desktop.png");
+      url("./assets/img/blog-image-hero-desktop.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
