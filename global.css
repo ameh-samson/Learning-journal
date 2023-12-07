@@ -19,6 +19,8 @@ body {
   height: 100vh;
   max-width: 100vw;
   user-select: none;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 /* layout style */
