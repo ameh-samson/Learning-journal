@@ -1,26 +1,32 @@
-const menuBar = document.querySelector("#menu-bar");
-const navLinks = document.querySelector(".nav");
+// SELECT DOM ELEMENTS FOR MOBILE NAV | START
+const btnNavEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+// SELECT DOM ELEMENTS FOR MOBILE NAV | END
 const viewMoreBtn = document.querySelector("#viewMore-btn");
 const loadMoreArticle = document.querySelectorAll(".load-more-article");
 
-menuBar.addEventListener("click", openMenu);
 viewMoreBtn.addEventListener("click", viewMoreArticle);
 
-function openMenu() {
-  navLinks.classList.toggle("active");
-  if (navLinks.classList.contains("active")) {
-    menuBar.style.color = "#ffffff";
-    navLinks.style.display = "flex";
-  } else {
-    menuBar.style.color = "";
-  }
-}
+// MOBILE NAVIGATION FUNCTIONALITY | START
+btnNavEl.addEventListener("click", function () {
+    headerEl.classList.toggle("nav-open");
+});
+
+headerEl.addEventListener("click", function (event) {
+    // Check if the clicked element is a navigation link
+    if (event.target.classList.contains("nav-link")) {
+        // Close the mobile navigation
+        headerEl.classList.remove("nav-open");
+    }
+});
+
+// MOBILE NAVIGATION FUNCTIONALITY | END
 
 function viewMoreArticle() {
-  viewMoreBtn.textContent =
-    viewMoreBtn.textContent === "View More" ? "View Less" : "View More";
+    viewMoreBtn.textContent =
+        viewMoreBtn.textContent === "View More" ? "View Less" : "View More";
 
-  loadMoreArticle.forEach((e) => {
-    e.classList.toggle("load-more");
-  });
+    loadMoreArticle.forEach((e) => {
+        e.classList.toggle("load-more");
+    });
 }
